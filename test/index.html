@@ -1,25 +1,0 @@
-﻿<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>الذكاء الاصطناعي البسيط</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#2d89ef"/>
-</head>
-<body>
-  <h1>👾 الذكاء الاصطناعي البسيط</h1>
-  <div id="grid"></div>
-  <p>المستوى: <span id="level">0</span></p>
-  <p>المحاولات الفاشلة: <span id="fails">0</span></p>
-  <p>مرات النجاح: <span id="success">0</span></p>
-  <button id="reset">🔄 مسح التعلم</button>
-
-  <script src="script.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js");
-    }
-  </script>
-</body>
-</html>
